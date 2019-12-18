@@ -9,12 +9,13 @@ module.exports = {
     "react/prop-types": 0,
     camelcase: 0,
     "react/no-unused-prop-types": 0,
+    "no-prototype-builtins": 0,
     "new-cap": [
       "error",
       { newIsCapExceptions: ["i18n"], capIsNewExceptions: ["Map", "Children"] }
     ],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": 0
+    "react-hooks/exhaustive-deps": 0,
   },
   extends: [
     "standard",
@@ -25,22 +26,12 @@ module.exports = {
   ],
   globals: {
     atob: true,
-    btoa: true
+    btoa: true,
+    arguments: true
   },
   settings: {
     react: {
-      version: "detect" // React version. "detect" automatically picks the version you have installed.
-    },
-    propWrapperFunctions: [
-      // The names of any function used to wrap propTypes, e.g. `forbidExtraProps`. If this isn't set, any propTypes wrapped in a function will be skipped.
-      "forbidExtraProps",
-      { property: "freeze", object: "Object" },
-      { property: "myFavoriteWrapper" }
-    ],
-    linkComponents: [
-      // Components used as alternatives to <a> for linking, eg. <Link to={ url } />
-      "Hyperlink",
-      { name: "Link", linkAttribute: "to" }
-    ]
+      version: "detect"
+    }
   }
 }
