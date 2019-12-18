@@ -20,8 +20,5 @@
     "eslint-plugin-react-hooks": "2.x",
     "eslint-plugin-standard": "^4.0.1",
     "prettier": "^1.18.2"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
