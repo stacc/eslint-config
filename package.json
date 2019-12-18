@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Stacc X",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "10.x",
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
