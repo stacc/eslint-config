@@ -21,6 +21,7 @@ module.exports = {
     "standard",
     "standard-react",
     "plugin:prettier/recommended",
+    "prettier",
     "prettier/standard",
     "prettier/react"
   ],
