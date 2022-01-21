@@ -1,3 +1,11 @@
+## [11.0.1](https://github.com/staccx/eslint-config/compare/v11.0.0...v11.0.1) (2022-01-21)
+
+
+### Bug Fixes
+
+* force release ([dcfa008](https://github.com/staccx/eslint-config/commit/dcfa00869eef0c48756afe56d44fcb05ceceb7ac))
+* remove config causing error. ([5d76bcf](https://github.com/staccx/eslint-config/commit/5d76bcf8c524a4df5c44778e49a4b18e6ff7942a))
+
 ## [10.0.1](https://github.com/staccx/eslint-config/compare/v10.0.0...v10.0.1) (2022-01-21)
 
 
