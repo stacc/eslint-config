@@ -1,3 +1,10 @@
+## [10.0.1](https://github.com/staccx/eslint-config/compare/v10.0.0...v10.0.1) (2022-01-21)
+
+
+### Bug Fixes
+
+* remove config causing error. ([5d76bcf](https://github.com/staccx/eslint-config/commit/5d76bcf8c524a4df5c44778e49a4b18e6ff7942a))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
