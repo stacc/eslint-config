@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Install dependencies
-        run: yarn
+        run: npm install
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
