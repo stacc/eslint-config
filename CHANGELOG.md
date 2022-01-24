@@ -1,3 +1,10 @@
+# [11.1.0](https://github.com/staccx/eslint-config/compare/v11.0.2...v11.1.0) (2022-01-24)
+
+
+### Features
+
+* add storybook roles ([3820517](https://github.com/staccx/eslint-config/commit/38205179fb0dc750e5eaaf1c21fc894e7a3ce3ef))
+
 ## [11.0.2](https://github.com/staccx/eslint-config/compare/v11.0.1...v11.0.2) (2022-01-21)
 
 
